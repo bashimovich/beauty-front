@@ -1,0 +1,46 @@
+.customCalendar .ant-picker-content {
+  background-color: lightyellow !important;  /* Set the background color of the calendar */
+}
+
+.customCalendar .ant-picker-cell-selected .ant-picker-cell-inner {
+  background-color: #BB2649 !important;
+  color: white !important;
+  border-color: #BB2649 !important;
+}
+.ant-btn-primary{
+  background-color: #BB2649 !important;
+  color: white !important;
+  border-color: #BB2649 !important;
+} 
+:where(.css-dev-only-do-not-override-p7e5j5).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+  background-color: #BB2649 !important;
+  color: white !important;
+  border-color: #BB2649 !important;
+}
+:where(.css-dev-only-do-not-override-p7e5j5).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover{
+  background-color: #BB2649 !important;
+  color: white !important;
+  border-color: #BB2649 !important;
+}
+:where(.css-dev-only-do-not-override-p7e5j5).ant-picker-calendar .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before{
+  /* background-color: #BB2649 !important; */
+  color: white !important;
+  border-color: #BB2649 !important;
+}
+:where(.css-dev-only-do-not-override-p7e5j5).ant-picker-calendar .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, :where(.css-dev-only-do-not-override-p7e5j5).ant-picker-calendar .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner, :where(.css-dev-only-do-not-override-p7e5j5).ant-picker-calendar .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner{
+  background-color: #BB2649 !important;
+  color: white !important;
+  border-color: #BB2649 !important;
+
+}
+:where(.css-dev-only-do-not-override-p7e5j5).ant-picker-calendar .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before{
+  /* background-color: #BB2649 !important; */
+  color: white !important;
+  border-color: #BB2649 !important;
+}
+:where(.css-dev-only-do-not-override-p7e5j5).ant-picker-calendar .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+  /* background-color: #BB2649 !important; */
+  color: white !important;
+  border-color: #BB2649 !important;
+
+}

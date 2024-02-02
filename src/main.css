@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('./assets/fonts/Rubik/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Rubik';
+}
+/* lazy loading spinner style */
+.suspense-fallback-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 0;
+}
+
+.container{
+    max-width: 93% !important;
+    margin: 0 auto;
+    padding: 0;
+
+}

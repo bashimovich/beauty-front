@@ -1,0 +1,224 @@
+/* Logo Style */
+
+.logo-container img{
+    width: 80%;
+    height: 61px;
+}
+.logo-container img:hover{
+    cursor: pointer;
+}
+.logo-container{
+    width: 15%;
+}
+/* Search Box  style*/
+.searchbox-container{
+    width: calc(85% - 32px) !important;
+    transition: all ease .4s;
+}
+.search-box {
+    /* width: 65% !important; */
+    width: 100%;
+    border-radius: 16px;
+}
+.search-box .ant-input-search .ant-input{
+    height: 40px;
+    border-radius: 16px 0 0 16px;
+    /* border-radius: 16px; */
+}
+.ant-input-group-addon .ant-btn{
+    /* border: none; */
+    /* box-shadow: none; */
+    height: 40px;
+    border-radius: 0 16px 16px 0 !important;
+    /* outline: none; */
+}
+
+
+
+/* Cads style */
+.card-wrapper{
+    max-width: 285px;
+    height: 372px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease .4s;
+}
+.card-wrapper:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0 , 0, 0.8);
+}
+.card-wrapper:hover .card-desc, .card-wrapper:hover .title{
+    color: red;
+}
+.card-container{
+    padding: 5px;
+    transition: all ease .4s;
+    /* width: 100%;
+    height: 100%; */
+
+
+}
+.card-img-container{
+    width: 100%;
+    height: 258px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: all ease .4s;
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .card-wrapper{
+        width: 258px;
+    }
+    .card-img-container{
+        height: 248px;
+    }
+} 
+
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all ease .4s;
+}
+
+.ant-card-body{
+    padding: 5px !important;
+
+}
+.card-body .title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #868686;
+    transition: all ease .4s;
+
+}
+.card-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#3D3D3D;
+    margin: 0;
+    transition: all ease .4s;
+}
+.carousel-img-container{
+    height: 600px;
+    width: 987px;
+    background-color: #3D3D3D;
+}
+
+.carousel-img-container img{
+    height: 600px;
+    width: 987px;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.service-order{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.calendar-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: stretch;
+    position: sticky;
+    top: 20px;
+}
+.service-desc{
+    width: 100%;
+}
+.flex-div {
+  width: 100%;
+  height: 113px;
+  overflow: hidden;
+  transition: all ease .9s !important;
+}
+
+.flex-div.active {
+  height: 300px;
+  overflow: scroll;
+}
+
+.service-desc p{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    color:  #919094;
+    /* padding-bottom: 10px; */
+
+}
+.service-desc span{
+    display: block;
+    padding: 10px 0;
+    width: 5%;
+}
+.service-desc span:hover{
+    cursor: pointer;
+}
+.service-desc h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.services-service h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.ant-picker-calendar-header{
+    background-color: #FAFAFA;
+}
+.ant-picker-date-panel{
+    background-color: #FAFAFA;
+
+}
+/* .ant-picker-cell-selected .ant-picker-calendar-date-value{
+    background-color: #bb2649;
+}
+.ant-picker-calendar-date-today{
+    border: 1px solid #bb2649;
+}
+.ant-picker-calendar-date-today::before{
+    border: 1px solid #bb2649;
+} 
+.ant-radio-button .ant-radio-button-checked{
+    color: #bb2649;
+}  */
+
+/* Media Query */
+@media only screen and (max-width: 700px) {
+    .logo-container{
+        display: none;
+    }
+    .searchbox-container{
+        width: calc(100% - 32px) !important;
+        /* margin: auto; */
+    }
+} 

@@ -1,0 +1,7 @@
+.ant-space .css-dev-only-do-not-override-p7e5j5 .ant-space-horizontal .ant-space-align-center .ant-space-gap-row-small .ant-space-gap-col-small{
+    display: block !important;
+}
+:where(.css-dev-only-do-not-override-p7e5j5).ant-space{
+    display: block !important;
+
+}
